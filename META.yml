@@ -1,0 +1,43 @@
+--- #YAML:1.0
+name:               Dpchrist-CvsUtil
+version:            1.017
+abstract:           CVS utilities
+author:
+    - David Paul Christensen <dpchrist@holgerdanske.com>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Capture::Tiny:        0.06
+    Carp:                 1.08
+    Config:               0
+    Cwd:                  3.2501
+    Data::Dumper:         2.12114
+    Dpchrist::Debug:      1.05
+    Dpchrist::Term:       1.021
+    Exporter:             5.62
+    ExtUtils::MakeMaker:  6.54
+    File::Basename:       2.76
+    File::Find:           1.12
+    File::Path:           2.08
+    File::Spec::Functions:  3.2501
+    File::Temp:           0.22
+    FindBin:              1.49
+    Getopt::Long:         2.37
+    Pod::Usage:           1.35
+    Test::Compile:        0.1
+    Test::Manifest:       1.22
+    Test::More:           0.72
+    Test::Pod:            1.4
+    Test::Prereq:         1.037
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.54
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
